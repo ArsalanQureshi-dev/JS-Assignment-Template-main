@@ -25,13 +25,3 @@
 
 // 3. Write a program to take input color of road traffic signal
 // from the user & show the message according to this table:
-
-var signalColor = prompt("Enter the color of the traffic signal:");
-
-if (signalColor.toLowerCase() === "red") {
-    alert("Stop!");
-} else if (signalColor.toLowerCase() === "yellow") {
-    alert("Ready to Move!");
-} else if (signalColor.toLowerCase() === "green") {
-    alert("Move Now");
-}
